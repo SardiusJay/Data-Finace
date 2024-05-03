@@ -7,7 +7,7 @@ const Hero = () => {
     <p className=' text-[#00df9a] font-bold p-2'>GROWING WITH DATA ANALYTICS</p>
     <h1 className='md:text-7xl sm:text-6xl text-4xl font-bold md:py-6'>Grow with data</h1>
     <div>
-    <p>Fast, flexible finanacing for </p>
+    <p className='md:text-5xl sm:text-4xl text-xl font-bold'>Fast, flexible finanacing for </p>
     </div>
 
     
