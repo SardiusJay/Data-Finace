@@ -10,7 +10,8 @@ const Hero = () => {
 
     <div className='flex justify-center items-center'>
     <p className='md:text-5xl sm:text-4xl text-xl font-bold'>Fast, flexible finanacing for </p>
-    <ReactTyped className='md:text-5xl sm:text-4xl text-xl font-bold'
+
+    <ReactTyped className='md:text-5xl sm:text-4xl text-xl font-bold pl-3'
     strings={[
         "BTB",
         "BTC",
