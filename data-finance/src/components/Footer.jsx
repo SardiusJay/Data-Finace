@@ -21,14 +21,45 @@ const Footer = () => {
             <FaDribbbleSquare  size={30} />
             </div>
         </div>
-        <div className='lg:col-span-3 flex justify-between'>
+        <div className='lg:col-span-2 flex justify-between'>
         <div>
         <h6 className='font-medium text-gray-400'>Solution</h6>
             <ul>
-                <li>Analytics</li>
-                <li>Marketing</li>
-                <li>Commerce</li>
-                <li>Insight</li>
+                <li className='py-2 text-sm'>Analytics</li>
+                <li className='py-2 text-sm'>Marketing</li>
+                <li className='py-2 text-sm'>Commerce</li>
+                <li className='py-2 text-sm'>Insight</li>
+            </ul>
+        </div>
+        
+        <div>
+        <h6 className='font-medium text-gray-400'>Support</h6>
+            <ul>
+                <li className='py-2 text-sm'>Pricing</li>
+                <li className='py-2 text-sm'>Documentation</li>
+                <li className='py-2 text-sm'>Guides</li>
+                <li className='py-2 text-sm'>API Status</li>
+            </ul>
+        </div>
+        
+
+        <div>
+        <h6 className='font-medium text-gray-400'>Company</h6>
+            <ul>
+                <li className='py-2 text-sm'>About</li>
+                <li className='py-2 text-sm'>Blog</li>
+                <li className='py-2 text-sm'>Jobs</li>
+                <li className='py-2 text-sm'>Press</li>
+                <li className='py-2 text-sm'>Career</li>
+            </ul>
+        </div>
+
+        <div>
+        <h6 className='font-medium text-gray-400'>Legal</h6>
+            <ul>
+                <li className='py-2 text-sm'>Claim</li>
+                <li className='py-2 text-sm'>Policy</li>
+                <li className='py-2 text-sm'>Terms</li>
             </ul>
         </div>
         
