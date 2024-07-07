@@ -1,5 +1,6 @@
 import React from 'react'
 
+/*the newletter section */
 const Newsletter = () => {
   return (
     <div className='w-full py-16 text-white px-4'>
